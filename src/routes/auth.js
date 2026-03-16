@@ -5,7 +5,8 @@ const { sendOtp, verifyOtp, completeSignup, login, getUserProfile,updateProfile,
 
 // router.post("/send-otp", sendOtp);
 // router.post("/verify-otp", verifyOtp);
-router.post("/verifyEmail", verifyEmail);
+
+router.post("/verify-email", verifyEmail);
 router.post("/complete-signup", completeSignup);
 router.post("/upload-profile-pic", uploadProfilePic);
 router.post("/login", login);
