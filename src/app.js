@@ -25,7 +25,7 @@ app.use("/api/private-chat", privateChatRoutes);
 app.use("/uploads", express.static("src/uploads"));
 
 app.get("/", (req, res) => {
-  res.send("Trishul Backend OK");
+  res.send("Unitalk Backend is OK");
 });
 
 module.exports = app;
